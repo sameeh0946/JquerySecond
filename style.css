@@ -1,0 +1,123 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+
+    }
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 12vh;
+    width: 40vw;
+}
+
+/*
+.para{
+    margin-top: 7vh;
+}
+*/
+
+
+.sub-main{
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: inherit;
+    width: 40vw;
+    
+    padding: 2vh;
+        }
+
+
+
+.hover{
+    text-decoration:none;
+    background : #F75163;
+    border: 0.5px solid;
+    
+}
+.hidden{
+    
+    
+    display: none;
+    background: none;
+    height: 20vh;
+    margin-top: 5vh;
+    width: 40vw;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border-top: 1px solid;
+    color: #F75163;
+    
+}
+
+.button-edit1 {
+    border: none;
+    margin-top: 2vh;
+    height: 7vh;
+    width: 15vw;
+    border-radius: 7px;
+    border: 3px solid;
+    border-color: #FE555C;
+    font-weight: 700;
+}
+
+.button-edit2 {
+    margin-left: 1vw;
+    border-radius: 7px;
+    border: 3px solid;
+    margin-top: 2vh;
+    height: 7vh;
+    width: 17vw;
+    border-color: #FE555C;
+    font-weight: 700;
+    
+}
+
+/*Media query for small device  START*/
+
+@media (min-width:200px) and (max-width: 576px) {
+    .content{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15vh;
+    width: 40vw;   
+    }
+    .button-edit1 {
+    
+    margin-top: 2vh;
+    margin-left: 1vw;
+    height: 12vh;
+    width: 35vw;
+    border-radius: 7px;
+    border: 3px solid;
+    border-color: #FE555C;
+    font-weight: 700;
+}
+
+.button-edit2 {
+    margin-left: 1vw;
+    border-radius: 7px;
+    border: 3px solid;
+    margin-top: 2vh;
+    height: 12vh;
+    width: 35vw;
+    border-color: #FE555C;
+    font-weight: 700;
+    
+}
+    
+.para{
+    margin-top: 2vh;
+}    
+
+
+}  
+/*Media query for small device  END*/
